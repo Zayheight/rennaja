@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+  <!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style-sibebarbanner.css">
+    <link rel="stylesheet" href="style-postformban.css">
+    <link rel="stylesheet" href="style-postformbanners.css">
+
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet"/>
+    
+    <!--<title>Dashboard Sidebar Menu</title>--> 
+
+</head>
+
+      <div class="container1">
+          <aside>
+            <div class="top">
+              <div class="logo">
+                <img src="./images/RENTNAJA.png" />
+                <h2 cla>RENT<span class="danger">NAJA</span></h2>
+              </div>
+              <div class="close" id="close-btn">
+                <span class="material-icons-sharp">close</span>
+              </div>
+            </div>
+    
+            <div class="sidebar">
+              <a href="MainDB.html">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Dashboard</h3>
+              </a>
+              <a href="allUser.html" >
+                <span class="material-icons-sharp">person_outline</span>
+                <h3>User management</h3>
+              </a>
+              <a href="allpost.html">
+                <span class="material-icons-sharp">receipt_long</span>
+                <h3>Post management</h3>
+              </a>
+              <a href="#">
+                <span class="material-icons-sharp">insights</span>
+                <h3>Push announcement</h3>
+              </a>
+              <a href="#">
+                <span class="material-icons-sharp">mail_outline</span>
+                <h3>Cancel account</h3>
+              </a>
+              <a href="#">
+                <span class="material-icons-sharp">inventory</span>
+                <h3>Cancel announcement</h3>
+              </a>
+              <a href="#">
+                <span class="material-icons-sharp">report_gmailerrorred</span>
+                <h3>Reports</h3>
+              </a>
+              <a href="#">
+                <span class="material-icons-sharp">settings</span>
+                <h3>News form </h3>
+              </a>
+              <a href="#" class="active">
+                <span class="material-icons-sharp">add</span>
+                <h3>News banner</h3> 
+                <!-- <span class="message-count">26</span> --> 
+              </a>
+             
+              <a href="#">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+              </a>
+         
+          </div>
+        </aside>
+        <!------------------ END OF ASIDE ------------------>
+  
+  
+        <main> 
+          <div class="right">
+            <div class="top">
+
+              <button id="menu-btn">
+                <span class="material-icons-sharp">menu</span>
+              </button>
+              <div class="theme-toggler">
+                <span class="material-icons-sharp active">light_mode</span>
+                <span class="material-icons-sharp">dark_mode</span>
+              </div>
+
+              <div class="profile">
+                <div class="info">
+                  <p>Hey, <b>Daniel</b></p>
+                  <small class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                  <img src="/img/img/user1.png" />
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          
+    <div class="form-container">
+        <div class="container">
+          <table  width="70%"  >
+            <p class="sub-text1">สถานะ<span style="color: red;">*</p>
+            <label for="field4">
+                <select name="field4" class="select-station">
+                <option value="Appointment">เลือก</option>
+                <option value="Interview">Show</option>
+                <option value="Regarding a post">Hide</option>
+                </select>
+            </label>
+        </table>
+    
+        <div class="wrapper">
+          <div class="image">
+             <img src="" alt="">
+          </div>
+          <div class="content">
+             <div class="icon">
+                <i class="fas fa-cloud-upload-alt"></i>
+          </div>
+          <div id="cancel-btn">
+             <i class="fas fa-times"></i>
+          </div>
+          <div class="file-name">
+             File name here
+          </div>
+       </div>
+
+     </div>
+       <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+       <input id="default-btn" type="file" hidden>
+     </div>
+
+     <div class="container">
+       <div class="wrapper">
+          <div class="image">
+             <img src="" alt="">
+          </div>
+          <div class="content">
+             <div class="icon">
+                <i class="fas fa-cloud-upload-alt"></i>
+          </div>
+          <div id="cancel-btn">
+             <i class="fas fa-times"></i>
+          </div>
+          <div class="file-name">
+             File name here
+          </div>
+       </div>
+
+     </div>
+       <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+       <input id="default-btn" type="file" hidden>
+     </div>
+
+     <div class="container">
+       <div class="wrapper">
+          <div class="image">
+             <img src="" alt="">
+          </div>
+          <div class="content">
+             <div class="icon">
+                <i class="fas fa-cloud-upload-alt"></i>
+          </div>
+          <div id="cancel-btn">
+             <i class="fas fa-times"></i>
+          </div>
+          <div class="file-name">
+             File name here
+          </div>
+       </div>
+
+     </div>
+       <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+       <input id="default-btn" type="file" hidden>
+     </div>
+
+   
+     <div class="container">
+       <div class="wrapper">
+          <div class="image">
+             <img src="" alt="">
+          </div>
+          <div class="content">
+             <div class="icon">
+                <i class="fas fa-cloud-upload-alt"></i>
+          </div>
+          <div id="cancel-btn">
+             <i class="fas fa-times"></i>
+          </div>
+          <div class="file-name">
+             File name here
+          </div>
+       </div>
+
+     </div>
+       <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+       <input id="default-btn" type="file" hidden>
+     </div>
+
+       
+                    
+                    <div class="btnall"> 
+                        <table>
+                            <tr>
+                                <td>
+                                  <a href="*" ><button class="btn1" >บันทึก</button> 
+                                </td>
+                                <td>
+                                    <a href="*" ><button class="btn2" >ยกเลิก</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+        </div>
+      </main>
+
+      </div>
+  </body>
+
+<script>
+    const sideMenu = document.querySelector("aside");
+const menuBtn = document.querySelector("#menu-btn");
+const closeBtn = document.querySelector("#close-btn");
+const themeToggler = document.querySelector(".theme-toggler");
+
+// show sidebar
+menuBtn.addEventListener('click', () => {
+    sideMenu.style.display = 'block';
+})
+
+// close sidebar
+closeBtn.addEventListener('click', () => {
+    sideMenu.style.display = 'none';
+})
+
+// change theme
+themeToggler.addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme-variables');
+
+    themeToggler.querySelector('span:nth-child(1)').classList.toggle('active');
+    themeToggler.querySelector('span:nth-child(2)').classList.toggle('active');
+})
+</script>
+
+</script>
+<script>
+const wrapper = document.querySelector(".wrapper");
+const fileName = document.querySelector(".file-name");
+const defaultBtn = document.querySelector("#default-btn");
+const customBtn = document.querySelector("#custom-btn");
+const cancelBtn = document.querySelector("#cancel-btn i");
+const img = document.querySelector("img");
+let regExp = /[0-9a-zA-Z\^\&\'\@\{\}\[\]\,\$\=\!\-\#\(\)\.\%\+\~\_ ]+$/;
+function defaultBtnActive(){
+ defaultBtn.click();
+}
+defaultBtn.addEventListener("change", function(){
+ const file = this.files[0];
+ if(file){
+   const reader = new FileReader();
+   reader.onload = function(){
+     const result = reader.result;
+     img.src = result;
+     wrapper.classList.add("active");
+   }
+   cancelBtn.addEventListener("click", function(){
+     img.src = "";
+     wrapper.classList.remove("active");
+   })
+   reader.readAsDataURL(file);
+ }
+ if(this.value){
+   let valueStore = this.value.match(regExp);
+   fileName.textContent = valueStore;
+ }
+});
+</script>
+
+<script>
+  $(".chosen-select").chosen({
+  no_results_text: "Oops, nothing found!"
+    })
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+<link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+<!-- EndMulti -->
+                      
+</section>
+
+<script>
+const body = document.querySelector('body'),
+sidebar = body.querySelector('nav'),
+toggle = body.querySelector(".toggle"),
+searchBtn = body.querySelector(".search-box"),
+modeSwitch = body.querySelector(".toggle-switch"),
+modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+sidebar.classList.remove("close");
+})
+
+</html>

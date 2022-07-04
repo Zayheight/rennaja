@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rentnaja</title>
+  <link rel="stylesheet" href="/Style/style_contactuspage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+  <header>
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="../img/img/logo.png" alt="" id="vv" />
+      </div>
+      <div class="navigation">
+        <div class="nav-items">
+          <i class="uil uil-times nav-close-btn"></i>
+          <a href="../Homepage.html"><i class="uil uil-home"></i>หน้าแรก</a>
+          <a href="./Rentpage.html"><i class="uil uil-compass"></i>ให้เช่า</a>
+          <a href="./Reccomendedpage.html"><i class="uil uil-info-circle"></i>รายการแนะนำ</a>
+          <a href="./Aboutuspage.html"><i class="uil uil-document-layout-left"></i>เกี่ยวกับเรา</a>
+          <a href="./Contactuspage.html"><i class="uil uil-document-layout-left"></i>ติดต่อเรา</a>
+          <a href="./Newspage.html"><i class="uil uil-envelope"></i>ข่าว</a>
+          <a href="./Questionpage.html"><i class="uil uil-envelope"></i>คำถาม</a>
+          <a1><a href="/Function/sidebar/index.html"><i class="uil uil-envelope"></i> + ลงประกาศ</a></a1>
+          <a href="/Function/login/login.html"><i class="uil uil-envelope"></i>เข้าสู่ระบบ</a>
+        </div>
+      </div>
+      <i class="uil uil-apps nav-menu-btn"></i>
+    </div>
+    <div class="scroll-indicator-container">
+      <div class="scroll-indicator-bar"></div>
+    </div>
+  </header>
+  <section class="sec-01">
+    <div class="container">
+      <!-- <h2 class="main-title">ข่าว</h2> -->
+      <div class="content">
+        <div class="image">
+          <img src="" alt="">
+        </div>
+        <div class="text-box">
+          <h3>ติดต่อเรา</h3>
+          <p>Billion B Billion B Billion B Billion B Billion B</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <div class="grid-container">
+      <!--item1-->
+      <div class="grid-items">
+        <u></u>
+        <h2 class="title">สถานที่</h2><br>
+        <p>95/327 ม.1 ต.ศาลากลาง อ.บางกรวย จ.นนทบุรี 11130 <br>BILLION B CO.,LTD <br>95/327 Moo.1 Salaklang,Bang Kruai,
+          Nontaburi 11130<br> Thailand</p>
+      </div>
+      <!--item2-->
+      <div class="grid-items">
+        <h2 class="title">ศูนย์บริการลูกค้า</h2><br>
+        <p>โทร  &nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;08-8852-5333 (Office)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08-2187-7537(Admin)<br>อีเมล
+          &nbsp;: admin@rentnaja.com <br>ไลน์ &nbsp;&nbsp;&nbsp;: @billionbproperty</p>
+      </div>
+      <!--item3-->
+      <div class="grid-items">
+        <u></u>
+        <h2 class="title">เวลาทำการ</h2><br>
+        <p>วันจันทร์ - วันเสาร์ <br>เวลา 09:00 น. - 18:00 น.</p>
+      </div>
+  </section>
+
+  <section class="container">
+    <section class="sec-03">
+      <div class="container">
+        <div class="content">
+          <div class="image-2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11117.582837209571!2d100.34244106381196!3d13.820650211170568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe0d6e6560e383b7!2z4Lia4Lij4Li04Lip4Lix4LiXIOC4muC4tOC4peC5gOC4peC4teC5iOC4ouC4mSDguJrguLUg4LiI4Liz4LiB4Lix4LiUICjguKrguLPguJnguLHguIHguIfguLLguJnguYPguKvguI3guYgp!5e0!3m2!1sth!2sth!4v1655284501913!5m2!1sth!2sth" width="1120" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+ 
+  <script>
+    //common reveal options to create reveal animations
+    ScrollReveal({
+      //reset: true,
+      distance: '60px',
+      duration: 2500,
+      delay: 400
+    });
+
+    //target elements, and specify options to create reveal animations
+    ScrollReveal().reveal('.main-title, .section-title', {delay: 250, origin: 'left'});
+    ScrollReveal().reveal('.sec-01 .image, .info', {delay: 300, origin: 'bottom'});
+    ScrollReveal().reveal('.text-box', {delay: 700, origin: 'right'});
+    ScrollReveal().reveal('.media-icons i', {delay: 250, origin: 'bottom', interval: 200});
+    ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', {delay: 250, origin: 'top'});
+    ScrollReveal().reveal('.media-info li', {delay: 250, origin: 'left', interval: 200});
+  </script>
+  <script>
+    //Javacript for the scroll indicator bar
+    window.addEventListener("scroll", () => {
+      const indicatorBar = document.querySelector(".scroll-indicator-bar");
+
+      const pageScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrollValue = (pageScroll / height) * 100;
+
+      indicatorBar.style.width = scrollValue + "%";
+    });
+
+    //Responsive navigation menu toggle
+    const menuBtn = document.querySelector(".nav-menu-btn");
+    const closeBtn = document.querySelector(".nav-close-btn");
+    const navigation = document.querySelector(".navigation");
+
+    menuBtn.addEventListener("click", () => {
+      navigation.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      navigation.classList.remove("active");
+    });
+  </script>
+  <!--footer-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="contacts">
+          <h3>บิลเลี่ยน บี</h3>
+          <ul>
+            <li><a></a></li>
+            <li>
+              <a>บริษัท บิลเลี่ยนบี จำกัด เป็นบริษัทอสังหาริมทรัพย์ (Property
+                Consultant / Real Estate Agency)
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts">
+          <h3>ที่อยู่บริษัท</h3>
+          <ul>
+            <li><a></a></li>
+            <li>
+              <a href="#">95/327 หมู่ 1 ศาลากลาง บางกรวย นนทบุรี 11130</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts">
+          <h3>ติดต่อเรา</h3>
+          <ul>
+            <li><a></a></li>
+            <li><a>669 5758 8196</a></li>
+            <li><a>668 2187 7537</a></li>
+            <li><a>668 8852 5333</a></li>
+            <li><a>668 2227 8759</a></li>
+            <li><a>ไลน์ : @billionbproperty</a></li>
+            <li><a>billionbproperty@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="contacts">
+          <h3>ติดตามเรา</h3>
+          <a href="https://www.facebook.com/BillionBproperty3/"><i class="fab fa-facebook" alt="" id="bb"></i></a>
+          <a href="mailto:billionbproperty@gmail.com"><i class="fa fa-envelope" aria-hidden="true" alt=""
+              id="bb"></i></a>
+          <a href="https://www.tiktok.com/@billionbproperty"><i class="fab fa-tiktok" alt="" id="bb"></i></a>
+          <a href="https://www.youtube.com/channel/UCLYAOkRqaliytHvw9U8ch4w/featured"><i class="fab fa-youtube"
+              id="bb"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+  <!--footer-->
+</body>
+
+</html>

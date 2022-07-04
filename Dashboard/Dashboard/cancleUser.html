@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cancle User</title>
+    <!-- MATERIAL CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="./images/RENTNAJA.png" />
+            <h2 cla>RENT<span class="danger">NAJA</span></h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp">close</span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="/Dashboard/Dashboard/MainDB.html">
+            <span class="material-icons-sharp">grid_view</span>
+            <h3>แดชบอร์ด</h3>
+          </a>
+          <a href="/Dashboard/Dashboard/allUser.html" >
+            <span class="material-icons-sharp">person_outline</span>
+            <h3>จัดการสมาชิก</h3>
+          </a>
+          <a href="/Dashboard/Dashboard/allpost.html">
+            <span class="material-icons-sharp">receipt_long</span>
+            <h3>จัดการโพส</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">insights</span>
+            <h3>ดันประกาศ</h3>
+          </a>
+          <a href="#" class="active">
+            <span class="material-icons-sharp">mail_outline</span>
+            <h3>ยกเลิกสมาชิก</h3>
+            <!-- <span class="message-count">26</span> -->
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">inventory</span>
+            <h3>ยกเลิกการดันประกาศ</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">report_gmailerrorred</span>
+            <h3>แชท</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">settings</span>
+            <h3>ฟอร์มข่าว</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">add</span>
+            <h3>ฟอร์มแบนเนอร์</h3>
+          </a>
+         
+          <a href="#">
+            <span class="material-icons-sharp">logout</span>
+            <h3>ออกจากระบบ</h3>
+          </a>
+        </div>
+      </aside>
+      <!------------------ END OF ASIDE ------------------>
+      <main>
+        <h1>Account Cancle</h1>
+
+        <!-- <div class="date">
+          <input type="date" />
+        </div> -->
+
+        <div class="insights">
+          <div class="sales">
+            <span class="material-icons-sharp">folder_shared</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Users</h3>
+                <h1>600 ID</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>20%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!------------ END OF SALES -------------->
+          <div class="expenses">
+            <span class="material-icons-sharp">folder_shared</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Owner</h3>
+                <h1>1200 ID</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>40%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!------------ END OF EXPENSES -------------->
+          
+          <div class="income">
+            <span class="material-icons-sharp">folder_shared</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Agent</h3>
+                <h1>1200 ID</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>40%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!------------ END OF INCOME -------------->
+        </div>
+        <!------------ END OF INSIGHTS -------------->
+
+        <div class="recent-orders">
+          <h2>Delete Member</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Username</th>
+                <th>User Role</th>
+                <th>Date</th>
+                <th>Refund</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                  <td>user test1</td>
+                  <td>User</td>
+                  <td>28/06/2022</td>
+                  <td class="warning">refund</td>
+                  <td class="delete"  onclick="deleteRow(this)">delete</td>
+                  </tr> 
+               -->
+            </tbody>
+          </table>
+          <a href="#">Show All</a>
+        </div>
+      </main>
+      <!----------------- END OF MAIN -------------------->
+
+      <div class="right">
+        <div class="top">
+          <button id="menu-btn">
+            <span class="material-icons-sharp">menu</span>
+          </button>
+          <div class="theme-toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+          </div>
+          <div class="profile">
+            <div class="info">
+              <p>Hey, <b>Username</b></p>
+              <small class="text-muted">@Role</small>
+            </div>
+            <div class="profile-photo">
+              <img src="./images/user.png" />
+            </div>
+          </div>
+        </div>
+        <!-- END OF TOP -->
+        
+        <!----------------- END OF RECENT UPDATES -------------------->
+        
+      </div>
+    </div>
+    <script>
+  
+      function deleteRow(el) {
+        if(!confirm("ต้องการลบข้อมูลนี้ใช่หรือไม่")) return;       
+        var tbl = el.parentNode.parentNode.parentNode;
+        var row = el.parentNode.parentNode.rowIndex;
+        tbl.deleteRow(el);
+      
+    }
+    </script>
+    <script src="./AccountCancle.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

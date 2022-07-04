@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+  <!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="/User/style/style-sibebarNew.css">
+    <link rel="stylesheet" href="/User/style/style-form.css">
+    <link rel="stylesheet" href="/User/style/style_navpost.css">
+
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet"/>
+    
+    <!--<title>Dashboard Sidebar Menu</title>--> 
+    <title>ข้อมูลส่วนตัว</title>
+</head>
+
+
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="logo">
+          <img src="/img/img/logo.png" alt="" id="vv" />
+        </div>
+        <div class="navigation">
+          <div class="nav-items">
+            <i class="uil uil-times nav-close-btn"></i>
+            <a href="/Homepage.html"><i class="uil uil-home"></i>หน้าแรก</a>
+            <a href="/Menunavbar/Rentpage.html"><i class="uil uil-compass"></i>ให้เช่า</a>
+            <a href="/Menunavbar/Reccomendedpage.html"><i class="uil uil-info-circle"></i>รายการแนะนำ</a>
+            <a href="/Menunavbar/Aboutuspage.html"><i class="uil uil-document-layout-left"></i>เกี่ยวกับเรา</a>
+            <a href="/Menunavbar/Contactuspage.html"><i class="uil uil-document-layout-left"></i>ติดต่อเรา</a>
+            <a href="/Menunavbar/Newspage.html"><i class="uil uil-envelope"></i>ข่าว</a>
+            <a href="/Menunavbar/Questionpage.html"><i class="uil uil-envelope"></i>คำถาม</a>
+            <a1><a href="../postpage-land/postpage20-1.html"><i class="uil uil-envelope"></i> + ลงประกาศ</a></a1>
+            <a href="/Function/login/login.html"><i class="uil uil-envelope"></i>เข้าสู่ระบบ</a>
+
+          </div>
+          
+        </div>
+        <i class="uil uil-apps nav-menu-btn"></i>
+      </div>
+      <div class="scroll-indicator-container">
+        <div class="scroll-indicator-bar"></div>
+      </div>
+
+      
+    </header>
+
+      <div class="container">
+
+        <aside>
+          <div class="top">
+            <div class="logo-rentnaja">
+              <h2 cla>RENT<span class="danger">NAJA</span></h2>
+            </div>
+            <div class="close" id="close-btn">
+              <span class="material-icons-sharp">close</span>
+            </div>
+          </div>
+          
+  
+  
+          <div class="sidebar">
+            <a class="active" >
+              <span  class='bx bx-user icon' ></span>
+              <h3>ข้อมูลส่วนตัว</h3>
+            </a>
+            <a href="/User/User_Favorite.html">
+              <span class='bx bxs-bookmark-heart icon' ></span>
+              <h3>รายการโปรด</h3>
+            </a>
+            <a href="/User/User_Compare.html">
+              <span class='bx bx-table icon '> </span>
+              <h3>ตารางเปรียบเทียบ</h3>
+            </a>
+            <a href="#">
+              <span class='bx bx-log-out bx-rotate-180'></span>
+              <span ><h3>ออกจากระบบ</h3></span>
+            </a>
+          </div>
+        </aside>
+        <!------------------ END OF ASIDE ------------------>
+  
+  
+        <main> 
+          <div class="right">
+            <div class="top">
+
+              <button id="menu-btn">
+                <span class="material-icons-sharp">menu</span>
+              </button>
+              <div class="theme-toggler">
+                <span class="material-icons-sharp active">light_mode</span>
+                <span class="material-icons-sharp">dark_mode</span>
+              </div>
+
+              <div class="profile">
+                <div class="info">
+                  <p>Hey, <b>Daniel</b></p>
+                  <small class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                  <img src="/img/img/user1.png" />
+                </div>
+              </div>
+
+            </div>
+          </div>
+            
+  
+          <div class="form-container">
+            <div class="text">
+            <h2>ชื่อผู้ใช้:</h2>
+            <br>
+            <h2>รหัสประจำตัวผู้ใช้งาน:</h2>
+            <br>
+            <h2>รหัสผ่าน:</h2>
+        </div>
+            <form >
+                <form> 
+                <h1 class="sub-text">แก้ไขข้อมูลส่วนตัว</h1>
+                <br>
+                <h2>ชื่อ-นามสกุล</h2>
+                <input type="text" class="input-text1">
+                <br>
+                <h2>อีเมล</h2>
+                <input type="email" class="input-text1">
+                <br>
+                <h2>เบอร์โทรศัพท์</h2>
+                <input type="tel" name="" id="" class="input-textSh">
+                <br>
+                <br>
+                <table>
+
+                    <tr >
+                        <td><h2>ประเภทบัตร :</h2></td>
+                        <td><select class="select-card" id="" >
+                            <option>-----------</option></select></td>
+                        <td><h2 class="mah2">เลขบัตร :</h2></td>
+                        <td><input type="text" class="input-text1"></td>
+                    </tr>
+                </table>
+                    <br>
+                    <h1>จุดประสงค์ในการเช่า</h1></td>
+                    <textarea class="input-textArea"></textarea>
+                    <br>
+                    <table>
+                    <tr>
+                        <td><h2>ไลน์ไอดี:  </h2></td>
+                        <td><input type="text" class="input-text1"></td>
+                        <td><h2>สัญชาติ:  </h2></td>
+                        <td><input type="text" class="input-text1"></td>
+                    </tr>
+                </table>
+                </form>
+                <h1>ที่อยู่</h1></td>
+                <textarea class="input-textArea"></textarea>
+                <form> 
+                <center>
+                <div id="display-image"><img src="/img/img/IDCARD.png" id="image_X"/></div>
+
+                  <!-- END ID CARD -->
+                  <br>
+                  <!-- buttonUpload -->
+                  <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg" class="custom-file-input" >
+                    <!-- End buttonUpload -->
+                  </center>
+                <div class="btnall"> 
+                  <table>
+                      <tr>
+                          <td>
+                              <button class="btn1"  > ยืนยันการแก้ไขข้อมูล</button> 
+                          </td>
+                      </tr>
+                  
+                  </table>
+              </div>
+
+            </form>
+            
+            
+        </div>
+      </main>
+
+
+      </div>
+  </body>
+
+
+    
+<script>
+    const sideMenu = document.querySelector("aside");
+const menuBtn = document.querySelector("#menu-btn");
+const closeBtn = document.querySelector("#close-btn");
+const themeToggler = document.querySelector(".theme-toggler");
+
+// show sidebar
+menuBtn.addEventListener('click', () => {
+    sideMenu.style.display = 'block';
+})
+
+// close sidebar
+closeBtn.addEventListener('click', () => {
+    sideMenu.style.display = 'none';
+})
+
+// change theme
+themeToggler.addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme-variables');
+
+    themeToggler.querySelector('span:nth-child(1)').classList.toggle('active');
+    themeToggler.querySelector('span:nth-child(2)').classList.toggle('active');
+})
+</script>
+<script>
+    const image_input = document.querySelector("#image-input");
+    var image_x = document.getElementById('image_X');
+image_input.addEventListener("change", function() {
+  const reader = new FileReader();
+  reader.addEventListener("load", () => {
+    const uploaded_image = reader.result;
+    document.querySelector("#display-image").style.backgroundImage = `url(${uploaded_image})`;
+    image_x.parentNode.removeChild(image_x);
+  });
+  reader.readAsDataURL(this.files[0]);
+});
+
+
+</script>
+</html>
